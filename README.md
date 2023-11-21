@@ -7,7 +7,7 @@
 ## 実行
 
 ```
-$ bash benchmark.sh
+$ bash ./benchmark.sh
 ```
 
 - benchmark.shの中のvitis_hlsのパスを適宜変更すること。
