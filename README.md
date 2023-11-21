@@ -10,4 +10,12 @@
 $ bash benchmark.sh
 ```
 
-- benchmark.shの中のvitis_hlsのパスを適宜変更すること
+- benchmark.shの中のvitis_hlsのパスを適宜変更すること。
+- 秒数が整数で出力されます。
+
+## ベンチマーク
+
+|    Platform   |Mem|Vitis HLS|Vivado|
+|:-------------:|:-:|:-:|:-:|
+|Intel i9-12900K|128GB| 14s | 260s |
+|Apple M2 with Rosetta| 24GB |18s | 375s |
