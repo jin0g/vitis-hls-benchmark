@@ -18,4 +18,7 @@ $ bash ./benchmark.sh
 |    Platform   |Mem|Vitis HLS|Vivado|
 |:-------------:|:-:|:-:|:-:|
 |Intel i9-12900K|128GB| 14s | 260s |
+|Xeon Gold 6326|512GB| 18s | 432s |
+|Apple M1 Pro with Rosetta2 | 64GB | 21s | 411s |
 |Apple M2 with Rosetta2 | 24GB |18s | 375s |
+|Apple M4 Pro with Rosetta2 | 48GB | 17s | 287s |
